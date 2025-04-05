@@ -44,22 +44,22 @@ Aguarde de 10 a 15 segundos para a aplicação ficar operacional.
 ## Testando a API via navegador:
 
 * Lista de compras:
-```
+```bash
 http://localhost:8080/compras
 ```
 
 * Lista de compras:
-```
+```bash
 http://localhost:8080/maior-compra/2019
 ```
 
 * Top 3 clientes fiéis:
-```
+```bash
 http://localhost:8080/clientes-fieis
 ```
 
 * Recomendação de vinho para cliente:
-```
+```bash
 http://localhost:8080/recomendacao/cliente/tipo
 ```
 
@@ -190,3 +190,10 @@ Conteúdo de **testRecomendacao.sh** para Linux/MacOS:
 curl -X GET http://localhost:8080/recomendacao/cliente/tipo \
 -H "Content-Type: application/json" 
 ```
+
+## Testando com swagger
+```bash
+http://localhost:8080/swagger-ui/index.html
+```
+
+
