@@ -1,0 +1,15 @@
+
+services:
+
+  analisecomprasapi:
+    build:
+      context: ./analisecomprasapi
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
