@@ -1,7 +1,10 @@
 # Desafio técnico para criação microserviço em Java com Spring Boot para analise de compra de vinhos
 API´s Mock:
+
 Lista de Produtos: https://rgr3viiqdl8sikgv.public.blob.vercelstorage.com/produtos-mnboX5IPl6VgG390FECTKqHsD9SkLS.json
+
 Lista de Clientes e Compras: https://rgr3viiqdl8sikgv.public.blob.vercelstorage.com/clientes-Vz1U6aR3GTsjb3W8BRJhcNKmA81pVh.json
+
 
 # Requisitos não funcionais
 - Aplicação foi construida em Java com Spring Boot no JDK 24.
