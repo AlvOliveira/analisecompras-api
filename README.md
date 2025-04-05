@@ -97,7 +97,7 @@ curl -X GET http://localhost:8080/compras \
 -H "Content-Type: application/json"
 ```
 
-## 2. Maior Compra por An
+## 2. Maior Compra por Ano
 
 Para Windows PowerShell:
 ```bash
