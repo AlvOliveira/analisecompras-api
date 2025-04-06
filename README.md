@@ -83,13 +83,13 @@ chmod +x testCompras.sh
 ./testCompras.sh
 ```
 
-Conteúdo de **testCompras.cmd** para Windows:
+Conteúdo de **testCompras.cmd** para **Windows**:
 ```bash
 curl -X GET http://localhost:8080/compras ^
 -H "Content-Type: application/json"
 ```
 
-Conteúdo de **testCompras.sh** para Linux/MacOS: 
+Conteúdo de **testCompras.sh** para **Linux/MacOS**: 
 ```bash
 #!/bin/bash
 
@@ -114,14 +114,14 @@ chmod +x testMaiorCompraAno.sh
 ./testMaiorCompraAno.sh
 ```
 
-Conteúdo de **testMaiorCompraAno.cmd** para Windows:
+Conteúdo de **testMaiorCompraAno.cmd** para **Windows**:
  
 ```bash
 curl -X GET http://localhost:8080/maior-compra/2019 ^
 -H "Content-Type: application/json" 
 ```
 
-Conteúdo de **testMaiorCompraAno.sh** para Linux/MacOS: 
+Conteúdo de **testMaiorCompraAno.sh** para **Linux/MacOS**: 
 ```bash
 #!/bin/bash
 
@@ -146,13 +146,13 @@ chmod +x testClientesFieis.sh
 ./testClientesFieis.sh
 ```
 
-Conteúdo de **testClientesFieis.cmd** para Windows: 
+Conteúdo de **testClientesFieis.cmd** para **Windows**: 
 ```bash
 curl -X GET http://localhost:8080/clientes-fieis ^
 -H "Content-Type: application/json"
 ```
 
-Conteúdo de teste **testClientesFieis.sh** para Linux/MacOS: 
+Conteúdo de teste **testClientesFieis.sh** para **Linux/MacOS**: 
 ```bash
 #!/bin/bash
 
@@ -177,13 +177,13 @@ chmod +x testRecomendacao.sh
 ./testRecomendacao.sh
 ```
 
-Conteúdo de **testRecomendacao.cmd** para Windows: 
+Conteúdo de **testRecomendacao.cmd** para **Windows**: 
 ```bash
 curl -X GET http://localhost:8080/recomendacao/cliente/tipo ^
 -H "Content-Type: application/json"
 ```
 
-Conteúdo de **testRecomendacao.sh** para Linux/MacOS: 
+Conteúdo de **testRecomendacao.sh** para **Linux/MacOS**: 
 ```bash
 #!/bin/bash
 
