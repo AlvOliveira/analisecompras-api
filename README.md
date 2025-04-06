@@ -63,7 +63,7 @@ http://localhost:8080/clientes-fieis
 http://localhost:8080/recomendacao/cliente/tipo
 ```
 
-## Testando com curl
+## Testando com "curl"
 
 ## 1. Listar Compras
 Navegue até o diretório analisecompras-api e execute:
