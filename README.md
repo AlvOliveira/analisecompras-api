@@ -41,7 +41,7 @@ docker-compose --project-name analisecompras-api up --build -d
 
 Aguarde de 10 a 15 segundos para a aplicação ficar operacional.
 
-## Testando a API via navegador:
+## Testando a API via navegador
 
 * Lista de compras:
 ```bash
