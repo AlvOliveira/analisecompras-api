@@ -31,7 +31,7 @@
 git clone https://github.com/AlvOliveira/analisecompras-api.git
 ```
 
-## Subindo o ambiente com Docker
+## Subindo o ambiente com *"Docker"*
 
 Navegue até o diretório analisecompras-api e execute:
 
@@ -68,15 +68,15 @@ http://localhost:8080/recomendacao/cliente/tipo
 ## 1. Listar Compras
 Navegue até o diretório analisecompras-api e execute:
 
-Para Windows PowerShell:
+Para **Windows** PowerShell:
 ```bash
 ./testCompras.cmd
 ```
-Para Windows Command Prompt:
+Para **Windows** Command Prompt:
 ```bash
 testCompras.cmd
 ```
-Para Linux/MacOS Terminal:
+Para **Linux/MacOS** Terminal:
 ```bash
 chmod +x testCompras.sh
 
@@ -99,15 +99,15 @@ curl -X GET http://localhost:8080/compras \
 
 ## 2. Maior Compra por Ano
 
-Para Windows PowerShell:
+Para **Windows** PowerShell:
 ```bash
 ./testMaiorCompraAno.cmd
 ```
-Para Windows Command Prompt:
+Para **Windows** Command Prompt:
 ```bash
 testMaiorCompraAno.cmd
 ```
-Para Linux/MacOS Terminal:
+Para **Linux/MacOS** Terminal:
 ```bash
 chmod +x testMaiorCompraAno.sh
 
@@ -131,15 +131,15 @@ curl -X GET http://localhost:8080/maior-compra/2019 \
 
 ## 3. Top 3 Clientes Fiéis
 
-Para Windows PowerShell:
+Para **Windows** PowerShell:
 ```bash
 ./testClientesFieis.cmd
 ```
-Para Windows Command Prompt:
+Para **Windows** Command Prompt:
 ```bash
 testClientesFieis.cmd
 ```
-Para Linux/MacOS terminal:
+Para **Linux/MacOS** terminal:
 ```bash
 chmod +x testClientesFieis.sh
 
@@ -162,15 +162,15 @@ curl -X GET http://localhost:8080/clientes-fieis \
 
 ## 4. Recomendação de Vinho
 
-Para Windows PowerShell:
+Para **Windows** PowerShell:
 ```bash
 ./testRecomendacao.cmd
 ```
-Para Windows Command Prompt:
+Para **Windows** Command Prompt:
 ```bash
 testRecomendacao.cmd
 ```
-Para Linux/MacOS terminal:
+Para **Linux/MacOS** terminal:
 ```bash
 chmod +x testRecomendacao.sh
 
@@ -195,5 +195,3 @@ curl -X GET http://localhost:8080/recomendacao/cliente/tipo \
 ```bash
 http://localhost:8080/swagger-ui/index.html
 ```
-
-
