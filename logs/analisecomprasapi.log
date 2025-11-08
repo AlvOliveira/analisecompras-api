@@ -1,0 +1,7 @@
+2025-11-08 15:28:27.704  INFO 22656 --- [main] c.d.c.a.AnalisecomprasapiApplication     : Starting AnalisecomprasapiApplication v1.0.0 using Java 24 on NTWIN10-ALVARO with PID 22656 (C:\Projetos\Pessoal\github\analisecompras-api\analisecomprasapi\target\analisecomprasapi-1.0.0.jar started by Alvaro in C:\Projetos\Pessoal\github\analisecompras-api)
+2025-11-08 15:28:27.714 DEBUG 22656 --- [main] c.d.c.a.AnalisecomprasapiApplication     : Running with Spring Boot v2.7.18, Spring v5.3.31
+2025-11-08 15:28:27.718  INFO 22656 --- [main] c.d.c.a.AnalisecomprasapiApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-11-08 15:28:32.386  INFO 22656 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-11-08 15:28:33.647  INFO 22656 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2025-11-08 15:28:33.696  INFO 22656 --- [main] c.d.c.a.AnalisecomprasapiApplication     : Started AnalisecomprasapiApplication in 7.185 seconds (JVM running for 8.116)
+2025-11-08 15:29:06.721  INFO 22656 --- [reactor-http-nio-6] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 775 ms
