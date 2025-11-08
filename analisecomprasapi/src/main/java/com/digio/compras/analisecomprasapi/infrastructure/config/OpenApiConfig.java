@@ -24,7 +24,7 @@ public class OpenApiConfig {
      */
     @Bean
     public OpenAPI customOpenAPI() {
-        String description = "Microsserviço para análise de compras de vinhos da loja Digio.\n\n" +
+        String description = "Microsserviço para análise de compras de vinhos.\n\n" +
                 "Esta API fornece endpoints para:\n" +
                 "- Listar compras ordenadas por valor\n" +
                 "- Buscar maior compra por ano\n" +
